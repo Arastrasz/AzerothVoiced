@@ -1,0 +1,44 @@
+## Interface: 120000
+## Title: Mage Quotes
+## Notes: Random Mage quotes with voice acting, custom editor, and spell triggers
+## Author: Vaelan
+## Version: 1.7.0
+## SavedVariables: MageQuotesDB
+## OptionalDeps: LibDataBroker-1.1, LibDBIcon-1.0
+## X-Category: Chat/Roleplay
+## X-Website: https://github.com/vaelan/MageQuotes
+## X-License: MIT
+
+# ====================
+# Libraries (load first)
+# ====================
+Libs\Lib.lua
+
+# ====================
+# Art & Resources
+# ====================
+Art\Icons.lua
+
+# ====================
+# Localization
+# ====================
+Locales\Quotes.lua
+Locales\UIStrings.lua
+
+# ====================
+# Core Systems
+# ====================
+Core.lua
+
+# ====================
+# Optional Modules
+# ====================
+Modules\CustomQuotes.lua
+Modules\Dracthyr.lua
+Modules\QuotePacks.lua
+Modules\QuotePacksUI.lua
+
+# ====================
+# User Interface (load last)
+# ====================
+UI.lua
