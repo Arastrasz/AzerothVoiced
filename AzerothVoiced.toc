@@ -1,0 +1,62 @@
+## Interface: 120000
+## Title: Azeroth Voiced
+## Notes: Voice lines for all classes with custom editor and spell triggers
+## Author: Vaelan
+## Version: 2.0.0
+## SavedVariables: AzerothVoicedDB
+## OptionalDeps: LibDataBroker-1.1, LibDBIcon-1.0
+## X-Category: Chat/Roleplay
+## X-Website: https://github.com/vaelan/AzerothVoiced
+## X-License: MIT
+
+# ====================
+# Libraries (load first)
+# ====================
+Libs\Lib.lua
+
+# ====================
+# Art & Resources
+# ====================
+Art\Icons.lua
+
+# ====================
+# Localization - Quote System
+# ====================
+Locales\Quotes.lua
+Locales\Quotes_Common.lua
+Locales\Quotes_Mage.lua
+Locales\Quotes_Warrior.lua
+Locales\Quotes_Paladin.lua
+Locales\Quotes_Hunter.lua
+Locales\Quotes_Rogue.lua
+Locales\Quotes_Priest.lua
+Locales\Quotes_DeathKnight.lua
+Locales\Quotes_Shaman.lua
+Locales\Quotes_Warlock.lua
+Locales\Quotes_Monk.lua
+Locales\Quotes_Druid.lua
+Locales\Quotes_DemonHunter.lua
+Locales\Quotes_Evoker.lua
+
+# ====================
+# Localization - UI Strings
+# ====================
+Locales\UIStrings.lua
+
+# ====================
+# Core Systems
+# ====================
+Core.lua
+
+# ====================
+# Optional Modules
+# ====================
+Modules\CustomQuotes.lua
+Modules\Dracthyr.lua
+Modules\QuotePacks.lua
+Modules\QuotePacksUI.lua
+
+# ====================
+# User Interface (load last)
+# ====================
+UI.lua
