@@ -1,0 +1,61 @@
+## Interface: 110100
+## Title: |cff00ccffAzeroth Voiced|r
+## Notes: Dynamic voice lines for all classes in World of Warcraft
+## Notes-ruRU: Динамические голосовые реплики для всех классов World of Warcraft
+## Author: Your Name Here
+## Version: 2.0.0
+## SavedVariables: AzerothVoicedDB
+## IconTexture: Interface\AddOns\AzerothVoiced\Art\Icons\icon.tga
+## X-Website: https://github.com/YourUsername/AzerothVoiced
+## X-Category: Combat, Roleplay
+## X-License: MIT
+
+# ============================================================
+# AZEROTH VOICED - Voice Lines for All Classes
+# ============================================================
+# 
+# Structure:
+#   1. Libraries (utilities)
+#   2. Locales (translations & quotes)
+#   3. Core (main engine)
+#   4. UI (settings interface)
+#   5. Modules (optional features)
+#
+# ============================================================
+
+# --- Libraries ---
+Libs\Lib.lua
+
+# --- Art & Icons ---
+Art\Icons.lua
+
+# --- Localization: UI Strings ---
+Locales\UIStrings.lua
+
+# --- Localization: Class Quotes ---
+# Each class has its own quote file for easy management
+Locales\Quotes_Common.lua
+Locales\Quotes_Mage.lua
+Locales\Quotes_Warrior.lua
+Locales\Quotes_Paladin.lua
+Locales\Quotes_Hunter.lua
+Locales\Quotes_Rogue.lua
+Locales\Quotes_Priest.lua
+Locales\Quotes_Shaman.lua
+Locales\Quotes_Warlock.lua
+Locales\Quotes_Monk.lua
+Locales\Quotes_Druid.lua
+Locales\Quotes_DemonHunter.lua
+Locales\Quotes_DeathKnight.lua
+Locales\Quotes_Evoker.lua
+
+# --- Core Engine ---
+Core.lua
+
+# --- User Interface ---
+UI.lua
+
+# --- Optional Modules ---
+Modules\CustomQuotes.lua
+# Modules\QuotePacks.lua
+# Modules\QuotePacksUI.lua
